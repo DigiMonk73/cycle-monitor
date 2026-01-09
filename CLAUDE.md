@@ -3,11 +3,18 @@
 ## Project Overview
 A financial dashboard showing two speedometer-style gauges for 18-Year Real Estate Cycle risk and Recession risk, with detailed indicator breakdowns below.
 
+## Deployment
+- **Hosted on**: Vercel (auto-deploys from GitHub)
+- **GitHub Repo**: https://github.com/PlebRick/cycle-monitor
+- **Production URL**: Deployed on Vercel (check Vercel dashboard for current URL)
+- **Workflow**: Push to `main` branch → Vercel auto-builds and deploys
+- **Environment Variables**: Set `VITE_FRED_API_KEY` in Vercel dashboard (Settings → Environment Variables)
+
 ## Tech Stack
 - React 18+ with Vite
 - Tailwind CSS (dark theme)
 - SVG or Canvas for gauges
-- No backend - static data initially, API integration later
+- FRED API for live economic data
 
 ## Design Requirements
 - Dark theme background: #0a0a0f
