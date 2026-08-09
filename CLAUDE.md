@@ -5,7 +5,7 @@ A financial dashboard showing two speedometer-style gauges for 18-Year Real Esta
 
 ## Deployment
 - **Hosted on**: Vercel (auto-deploys from GitHub)
-- **GitHub Repo**: https://github.com/PlebRick/cycle-monitor
+- **GitHub Repo**: https://github.com/DigiMonk73/cycle-monitor
 - **Production URL**: Deployed on Vercel (check Vercel dashboard for current URL)
 - **Workflow**: Push to `main` branch → Vercel auto-builds and deploys
 - **Environment Variables**: Set `VITE_FRED_API_KEY` in Vercel dashboard (Settings → Environment Variables)
